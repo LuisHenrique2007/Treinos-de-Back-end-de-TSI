@@ -1,0 +1,5 @@
+sport=input("Digite um nome:")
+nautico=input("Digite um nome:")
+santinha=input("Digite um nome:")
+print("Dois desses nomes são iguais?",sport==nautico or nautico==santinha or santinha==sport)
+print("Todos esses nomes são diferentes um do outro?",sport!=nautico and nautico!=santinha and santinha!=sport)

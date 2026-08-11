@@ -1,0 +1,8 @@
+a=int(input("Digite um número:"))
+b=int(input("Digite um número:"))
+print(f"O valor da avaliação da expressão {a} > {b} é {a>b}.")
+print(f"O valor da avaliação da expressão {a} == {b} é {a==b}.")
+print(f"O valor da avaliação da expressão {a} < {b} é {a<b}.")
+print(f"O valor da avaliação da expressão {a} >= {b} é {a>=b}.")
+print(f"O valor da avaliação da expressão {a} <= {b} é {a<=b}.")
+print(f"O valor da avaliação da expressão {a} != {b} é {a!=b}.")

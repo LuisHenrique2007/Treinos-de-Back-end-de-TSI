@@ -1,0 +1,5 @@
+petrolina=float(input("Digite o valor de seu gasto de energia em quilowatts"))
+juazeiro=float(input("Digite o valor do salário mínimo:"))
+print(f"O valor em reais de cada quilowatt é {juazeiro/700:.2f}")
+print(f"O valor em reais a ser pago é:{petrolina*juazeiro/700:.2f}")
+print(f"O novo valor a ser pago pela residência com o desconto de 10% é:{0.9*petrolina*juazeiro/700:.2f}")

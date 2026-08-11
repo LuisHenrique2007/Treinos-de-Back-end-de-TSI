@@ -1,0 +1,6 @@
+tempo=float(input("Qual o tempo da viagem?"))
+velocidade=float(input("Qual a velocidade média?"))
+print("velocidade média é: ", velocidade)
+print("tempo é:", tempo)
+print("distância é:", tempo*velocidade)
+print("Quantidade de litros usados na viagem", tempo*velocidade/12)
